@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <title>Dayvson_Portfolio</title>
+</head>
+
+<body>
+    <header class="max-header">
+        <div class="container">
+            <div class="logo max-logo">
+                <img src="imgs/logo-1.png" alt="Dayvson_Portfolio" srcset="">
+            </div>
+            <div class="menu">
+                <div class="hamburger max-hamburger "></div>
+            </div>
+            <nav class="nav-bar max-nav">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Portfolio">Portfólio</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="ghost"></section>
+    <main>
+        <section id="Home">
+            <div class="MaxHome" style="opacity: 1.0;">
+                <div class="Perfil">
+                    <div class="container">
+                        <div class="card" style="margin: 20px;">
+                            <img class="card-img-top" src="imgs/Eu.jpeg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Dayvson Silvino da Silva</h4>
+
+                                <a href="#Sobre" class="btn btn-primary">Sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Sobre">
+            <div class="w3-row">
+                <div class="w3-container w3-half">
+                    <h3>Quem sou eu</h3>
+                    <br>
+                    <p>
+                        Desde jovem sou interessado em tecnologia, comecei a minha carreira na área de T.I a partir dos
+                        18 anos.
+                        O meu primeiro contato com tecnologia está relacionado a área de
+                        hardware, ao passar dos anos fui conhecendo melhor a área de programação e
+                        decide ingressar em uma faculdade voltada ao segmento.
+                        Sempre em busca de conhecimento para conquistar os meus objetivos,
+                        sabendo que nessa área o conhecimento é a água do nosso dia a dia.
+                        Sou desenvolvedor freelancer, mas pretendo trabalhar com equipes de desenvolvedores para crescer
+                        profissionalmente.
+                    </p>
+                </div>
+                <div class="w3-container w3-half">
+                    <h3>Certificados</h3>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/MRV.png" alt="MRV">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/Localiza.png" alt="Localiza">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/Takeblip.png" alt="Takeblip">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/Html_responsivo.png" alt="Udemy Html_responsivo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/dotnetcompleto.png" alt="Udemy c# completo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/Nodejs.png" alt="Udemy Nodejs">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/SqlServer.png" alt="Bradesco SqlServer">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/InovandoCss.png" alt="Bradesco Css">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/ModelagemDados.png" alt="Bradesco ModelagemDados">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/Html.png" alt="Bradesco Html">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/LogicaProgramação.png" alt="Senai LogicaProgramação">
+                            </div>
+                        </div>
+
+
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Portfolio">Portfólio</section>
+        <section id="Contato">Contato</section>
+    </main>
+
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+</body>
+
+</html>
