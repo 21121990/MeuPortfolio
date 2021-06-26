@@ -170,7 +170,7 @@ header{
         transition: all 0.4s ease-out;
     }
     .max-hamburger, .max-hamburger::before,.max-hamburger::after{
-        background-color: #2D2E42;
+        background-color: #cae1f1;
     }
     .min-hamburger, .min-hamburger::before,.min-hamburger::after{
         background-color: #0D0D0D;
@@ -248,7 +248,12 @@ main section:nth-child(even){
     background-color: #b7d5eb;
     color: #2C3147;
 }
-
+  #Home{
+  
+  background-image: url(../imgs/ImgHome.png);
+  background-repeat: no-repeat;
+  
+  }
 
   .MaxHome {
     display: grid;
@@ -278,6 +283,15 @@ main section:nth-child(even){
 
 
   }
+  footer{
+   height: 30vh;
+   background-color: #2C3147;
+    color: #b7d5eb;
+  }
+
+  
+
+ 
 
 
 
