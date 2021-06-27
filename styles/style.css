@@ -201,8 +201,9 @@ header{
        height: calc(100vh - 80px);
     }
     .min-nav{
-        top:60px;
-       height: calc(100vh - 60px);
+       top:60px;
+       /* height: calc(100% - 60px); */
+       height: 700px;
     }
     .menu-opened{
         transform: translateX(0);
@@ -299,7 +300,7 @@ main section:nth-child(even){
 
   .w3-container > h4,video{   
     overflow: hidden;
-    width: 370px;
+    width: 350px;
     margin-left: 25px;
   }
   
