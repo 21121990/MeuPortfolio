@@ -18,7 +18,7 @@ a{
 header{
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 18;
     font-size: 16px;
     transition: all 0.4s ease-out;
 
@@ -189,9 +189,9 @@ header{
     }
     .nav-bar{
        position: absolute;
-
        left: 0;
        width: 100%;
+       height: 100%;
        background-color: #2D2E42;
        transform: translateX(-100%);
        transition: all 0.4s ease-out;
@@ -242,7 +242,7 @@ main section{
     font-size: 2em;
     padding-right: 20px;
     padding-left: 20px;
-    
+   
 }
 main section:nth-child(odd){
     padding-top: 20px;
@@ -609,7 +609,7 @@ body {
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
 }
 
 hr {
@@ -6411,6 +6411,7 @@ textarea.form-control-lg {
   background-position: 50%;
   background-size: 100% 100%;
   background-color: black;
+ 
 }
 
 /* rtl:options: {
