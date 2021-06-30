@@ -247,16 +247,16 @@ main section{
 main section:nth-child(odd){
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #2C3147;
-    color: #b7d5eb;
+    background-color: #ffffff;
+    color: #2C3147;
     
 }
 
 main section:nth-child(even){
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #b7d5eb;
-    color: #2C3147;
+    background-color: #2C3147;
+    color:  #ffffff;
 }
   #Home{
   
