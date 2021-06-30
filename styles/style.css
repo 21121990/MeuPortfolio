@@ -202,8 +202,7 @@ header{
     }
     .min-nav{
        top:60px;
-       /* height: calc(100% - 60px); */
-       height: 700px;
+       height: calc(100vh  - 60px);
     }
     .menu-opened{
         transform: translateX(0);
@@ -311,6 +310,9 @@ main section:nth-child(even){
 
   .w3-container, .w3-panel {
     padding: 0px;
+}
+.w3-col.m6{
+  height: 200px;
 }
  
 
@@ -5321,6 +5323,8 @@ textarea.form-control-lg {
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
+  width: 300px;
+  margin-left: 25px;
 }
 
 .progress-bar {
