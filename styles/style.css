@@ -314,7 +314,32 @@ main section:nth-child(even){
 .w3-col.m6{
   height: 200px;
 }
- 
+.w3-col > a{
+  font-size:36px;
+  color: white; 
+  margin-top: 50px;
+}
+
+.w3-col > a:hover{
+  color: white; 
+}
+ .progress
+ {
+  margin-bottom: 15px;
+  margin-top: -15px;
+ }
+ .SVGtp{
+  font-size:  10px; 
+  padding: 5px; 
+  bottom: 10px;
+ }
+ .SVGPosition{
+  width:12; 
+  height:12;
+  position: relative; 
+  top: 6px; 
+  margin-left: 25px;
+ }
 
 
 
