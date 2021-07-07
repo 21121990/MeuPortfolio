@@ -316,7 +316,7 @@ main section:nth-child(even){
 }
 .w3-col > a{
   font-size:36px;
-  color: white; 
+  color: darkgray; 
   margin-top: 50px;
 }
 
