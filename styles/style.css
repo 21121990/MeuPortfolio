@@ -260,8 +260,7 @@ main section:nth-child(even){
 }
   #Home{
   
-  background-image: url(../imgs/ImgHome.png);
-  background-repeat: no-repeat;
+    background-color: #0D0D0D;
   
   }
 
